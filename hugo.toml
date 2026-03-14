@@ -1,11 +1,33 @@
-baseURL = 'https://solo-code-tw.github.io/'
-languageCode = 'en-us'
-title = 'Solo Code Blog'
+baseURL = "https://solo-code-tw.github.io/" # 假設你已改名
+title = "Solo Code Blog"
 theme = ["github.com/adityatelange/hugo-PaperMod"]
 
-[params]
-    env = "production"
 [module]
   [[module.imports]]
     path = "github.com/adityatelange/hugo-PaperMod"
-# test
+
+[params]
+    env = "production"
+    title = "Solo Code Blog"
+    description = "Solo code 的技術與生活隨筆"
+    keywords = ["Software Development", "C++", "Hugo"]
+    author = "Clement"
+    
+    # 這裡開啟 PaperMod 的首頁個人檔案模式
+    [params.profileMode]
+        enabled = true
+        title = "Hi, I'm Clement"
+        subtitle = "軟體工程師 | 系統開發 | 在台北漢來飯店紀錄生活"
+        imageUrl = "https://github.com/solo-code-tw.png" # 會自動抓你的 GitHub 頭像
+        imageWidth = 120
+        imageHeight = 120
+
+    # 顯示「閱讀時間」與「麵包屑選單」
+    ShowReadingTime = true
+    ShowBreadCrumbs = true
+    ShowCodeCopyButtons = true # 方便複製程式碼
+
+    [params.socialIcons]
+        [[params.socialIcons]]
+            name = "github"
+            url = "https://github.com/solo-code-tw"
