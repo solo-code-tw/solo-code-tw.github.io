@@ -1,10 +1,9 @@
 ---
 title: "專案筆記：Windows 系統監測開發實錄"
-date: 2026-03-14
-description: "關於 RemoteDesktopWatch 專案中 DXGI 畫面擷取的技術細節。"
-tags: ["C++", "Windows API", "開發日記"]
+date: 2026-03-13
+description: "關於 RemoteDesktopWatch 專案技術細節。"
+tags: ["C++", "Windows"]
 categories: ["技術"]
-image: "/images/taipei-work.jpg" # 如果你有放圖片的話
 draft: false
 ---
 
