@@ -31,3 +31,20 @@ theme = ["github.com/adityatelange/hugo-PaperMod"]
         [[params.socialIcons]]
             name = "github"
             url = "https://github.com/solo-code-tw"
+
+[menu]
+    [[menu.main]]
+        identifier = "categories"
+        name = "分類"
+        url = "/categories/"
+        weight = 10
+    [[menu.main]]
+        identifier = "tags"
+        name = "標籤"
+        url = "/tags/"
+        weight = 20
+    [[menu.main]]
+        identifier = "archives"
+        name = "歸檔"
+        url = "/archives/"
+        weight = 30
