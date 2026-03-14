@@ -16,12 +16,21 @@ theme = ["github.com/adityatelange/hugo-PaperMod"] # 這裡要寫完整的模組
 
     # 首頁個人檔案模式
     [params.profileMode]
-        enabled = true
-        title = "Hi, I'm Clement"
-        subtitle = "軟體工程師 | 系統開發 | 在台北漢來飯店紀錄生活"
-        imageUrl = "https://github.com/solo-code-tw.png"
-        imageWidth = 120
-        imageHeight = 120
+    enabled = true
+    title = "Hi, I'm Clement"
+    subtitle = "軟體工程師 | 系統開發 | 在台北漢來飯店紀錄生活"
+    imageUrl = "https://github.com/solo-code-tw.png"
+    
+    # 在這裡新增按鈕區塊
+    [[params.profileMode.buttons]]
+        name = "📂 所有分類"
+        url = "/categories/"
+    [[params.profileMode.buttons]]
+        name = "🏷️ 熱門標籤"
+        url = "/tags/"
+    [[params.profileMode.buttons]]
+        name = "✍️ 閱讀文章"
+        url = "/posts/"
 
 # 選單設定（按鈕就在這裡）
 [[menu.main]]
