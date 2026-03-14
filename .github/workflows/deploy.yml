@@ -14,6 +14,10 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Setup Go # 新增這一段，讓 Hugo 可以下載模組
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21'
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
