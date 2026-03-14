@@ -1,6 +1,6 @@
 baseURL = "https://solo-code-tw.github.io/"
 title = "Solo Code Blog"
-theme = "PaperMod"
+theme = ["github.com/adityatelange/hugo-PaperMod"] # 這裡要寫完整的模組路徑
 
 [module]
   [[module.imports]]
