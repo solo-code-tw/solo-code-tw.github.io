@@ -12,6 +12,7 @@ theme = ["github.com/adityatelange/hugo-PaperMod"]
     description = "Solo code 的技術與生活隨筆"
     keywords = ["Software Development", "C++", "Hugo"]
     author = "Clement"
+    integrity = false  # 關閉完整性檢查，防止因為編譯環境不同導致的載入失敗
     
     # 這裡開啟 PaperMod 的首頁個人檔案模式
     [params.profileMode]
