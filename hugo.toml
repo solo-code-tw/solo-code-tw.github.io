@@ -1,6 +1,6 @@
 baseURL = "https://solo-code-tw.github.io/"
 title = "Solo Code Blog"
-theme = ["github.com/adityatelange/hugo-PaperMod"]
+theme = "PaperMod"
 
 [module]
   [[module.imports]]
@@ -9,45 +9,33 @@ theme = ["github.com/adityatelange/hugo-PaperMod"]
 [params]
     env = "production"
     title = "Solo Code Blog"
-    description = "Solo code 的技術與生活隨筆"
-    keywords = ["Software Development", "C++", "Hugo"]
+    description = "Clement 的技術與生活隨筆"
     author = "Clement"
-    # 這裡修正了：integrity 必須放在 params 之下
+    # 關閉資源檢查，解決樣式載入問題
     integrity = false 
 
-    # 顯示「閱讀時間」與「麵包屑選單」
-    ShowReadingTime = true
-    ShowBreadCrumbs = true
-    ShowCodeCopyButtons = true 
-
-    # 這裡修正了：profileMode 的層級
+    # 首頁個人檔案模式
     [params.profileMode]
         enabled = true
         title = "Hi, I'm Clement"
         subtitle = "軟體工程師 | 系統開發 | 在台北漢來飯店紀錄生活"
-        imageUrl = "https://github.com/solo-code-tw.png" 
+        imageUrl = "https://github.com/solo-code-tw.png"
         imageWidth = 120
         imageHeight = 120
 
-    # 這裡修正了：socialIcons 的層級
-    [[params.socialIcons]]
-        name = "github"
-        url = "https://github.com/solo-code-tw"
-
-# 選單必須放在最外層
-[menu]
-    [[menu.main]]
-        identifier = "categories"
-        name = "分類"
-        url = "/categories/"
-        weight = 10
-    [[menu.main]]
-        identifier = "tags"
-        name = "標籤"
-        url = "/tags/"
-        weight = 20
-    [[menu.main]]
-        identifier = "archives"
-        name = "歸檔"
-        url = "/archives/"
-        weight = 30
+# 選單設定（按鈕就在這裡）
+[[menu.main]]
+    identifier = "categories"
+    name = "分類"
+    url = "/categories/"
+    weight = 10
+[[menu.main]]
+    identifier = "tags"
+    name = "標籤"
+    url = "/tags/"
+    weight = 20
+[[menu.main]]
+    identifier = "archives"
+    name = "歸檔"
+    url = "/archives/"
+    weight = 30
