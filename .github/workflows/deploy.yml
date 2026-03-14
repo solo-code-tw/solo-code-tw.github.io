@@ -20,7 +20,7 @@ jobs:
           hugo-version: 'latest'
           extended: true
       - name: Build
-        run: hugo --minify --baseURL "https://solo-code-tw.github.io/solo.code.github.io/"
+        run: hugo --minify --baseURL "https://solo-code-tw.github.io/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
