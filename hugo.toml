@@ -1,6 +1,6 @@
 baseURL = "https://solo-code-tw.github.io/"
 title = "Solo Code Blog"
-theme = ["github.com/adityatelange/hugo-PaperMod"] # 這裡要寫完整的模組路徑
+theme = ["github.com/adityatelange/hugo-PaperMod"]
 
 [module]
   [[module.imports]]
@@ -9,42 +9,50 @@ theme = ["github.com/adityatelange/hugo-PaperMod"] # 這裡要寫完整的模組
 [params]
     env = "production"
     title = "Solo Code Blog"
-    description = "Solo Code 的技術與生活隨筆"
+    description = "軟體系統開發、底層技術與資安筆記"
     author = "Solo Code"
-    # 關閉資源檢查，解決樣式載入問題
     integrity = false 
 
-    # 首頁個人檔案模式
+    # 1. 強化首頁門面：將核心技術專案化
     [params.profileMode]
     enabled = true
     title = "Hi, I'm Solo Coding"
-    subtitle = "軟體工程師 | 系統開發 | 紀錄生活"
+    subtitle = "Software Engineer | Windows System Development | Security"
     imageUrl = "https://github.com/solo-code-tw.png"
     
-    # 在這裡新增按鈕區塊
     [[params.profileMode.buttons]]
-        name = "📂 所有分類"
-        url = "/categories/"
+        name = "🏗️ 系統開發"
+        url = "/categories/system-dev/" # 放置如 FSM, Windows API 文章
     [[params.profileMode.buttons]]
-        name = "🏷️ 熱門標籤"
-        url = "/tags/"
+        name = "🛡️ 安全研究"
+        url = "/categories/security/"    # 放置 Security 文章
     [[params.profileMode.buttons]]
-        name = "✍️ 閱讀文章"
-        url = "/posts/"
+        name = "🛠️ 開發工具箱"
+        url = "/categories/tool-box/"   # 放置 Regex, Debug 手法
 
-# 選單設定（按鈕就在這裡）
+# 2. 側邊/頂部選單優化：增加搜尋與精選
 [[menu.main]]
-    identifier = "categories"
-    name = "分類"
-    url = "/categories/"
+    identifier = "search"
+    name = "🔍 搜尋"
+    url = "/search/" # 建議後續開啟 PaperMod 內建搜尋
+    weight = 5
+[[menu.main]]
+    identifier = "posts"
+    name = "✍️ 所有文章"
+    url = "/posts/"
     weight = 10
 [[menu.main]]
-    identifier = "tags"
-    name = "標籤"
-    url = "/tags/"
+    identifier = "categories"
+    name = "📂 分類"
+    url = "/categories/"
     weight = 20
 [[menu.main]]
-    identifier = "archives"
-    name = "歸檔"
-    url = "/archives/"
+    identifier = "tags"
+    name = "🏷️ 標籤"
+    url = "/tags/"
     weight = 30
+[[menu.main]]
+    identifier = "archives"
+    name = "📜 歸檔"
+    url = "/archives/"
+    weight = 40
