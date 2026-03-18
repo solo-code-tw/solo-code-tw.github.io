@@ -18,7 +18,7 @@ theme = ["github.com/adityatelange/hugo-PaperMod"] # 這裡要寫完整的模組
     [params.profileMode]
     enabled = true
     title = "Hi, I'm Solo Coding"
-    subtitle = "軟體工程師 | 系統開發 | 在台北漢來飯店紀錄生活"
+    subtitle = "軟體工程師 | 系統開發 | 紀錄生活"
     imageUrl = "https://github.com/solo-code-tw.png"
     
     # 在這裡新增按鈕區塊
