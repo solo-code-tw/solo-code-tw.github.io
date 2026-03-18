@@ -9,15 +9,15 @@ theme = ["github.com/adityatelange/hugo-PaperMod"] # 這裡要寫完整的模組
 [params]
     env = "production"
     title = "Solo Code Blog"
-    description = "Clement 的技術與生活隨筆"
-    author = "Clement"
+    description = "Solo Code 的技術與生活隨筆"
+    author = "Solo Code"
     # 關閉資源檢查，解決樣式載入問題
     integrity = false 
 
     # 首頁個人檔案模式
     [params.profileMode]
     enabled = true
-    title = "Hi, I'm Clement"
+    title = "Hi, I'm Solo Coding"
     subtitle = "軟體工程師 | 系統開發 | 在台北漢來飯店紀錄生活"
     imageUrl = "https://github.com/solo-code-tw.png"
     
