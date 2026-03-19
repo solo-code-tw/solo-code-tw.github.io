@@ -3,7 +3,7 @@ title: "專案筆記：Windows 系統監測開發實錄"
 date: 2026-03-13
 description: "關於 RemoteDesktopWatch 專案技術細節。"
 tags: ["C++", "Windows"]
-categories: ["技術"]
+categories: ["技術22"]
 draft: false
 ---
 
