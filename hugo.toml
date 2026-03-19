@@ -21,7 +21,7 @@ theme = ["github.com/adityatelange/hugo-PaperMod"]
     imageUrl = "https://github.com/solo-code-tw.png"
     
     [[params.profileMode.buttons]]
-        name = "🏗️ 系統開發"
+        name = "🏗️ 系統開發!!"
         url = "/categories/system-dev/" # 放置如 FSM, Windows API 文章
     [[params.profileMode.buttons]]
         name = "🛡️ 安全研究"
