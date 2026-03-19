@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Solo Code Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Solo Code Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Mar 2026 08:01:29 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fsm Implementation Guide</title>
+      <link>http://localhost:1313/posts/fsm-implementation-guide/</link>
+      <pubDate>Thu, 19 Mar 2026 08:01:29 +0800</pubDate>
+      <guid>http://localhost:1313/posts/fsm-implementation-guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PaperMod 主題功能展示</title>
+      <link>http://localhost:1313/posts/papermod-features/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/papermod-features/</guid>
+      <description>這篇文章用來展示 PaperMod 的排版、程式碼高亮與多媒體功能。</description>
+    </item>
+    <item>
+      <title>在漢來飯店的第一天</title>
+      <link>http://localhost:1313/posts/2026-03-14-taipei-life/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-03-14-taipei-life/</guid>
+      <description>&lt;p&gt;這裡是你的內容&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>專案筆記：Windows 系統監測開發實錄</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>關於 RemoteDesktopWatch 專案技術細節。</description>
+    </item>
+  </channel>
+</rss>
