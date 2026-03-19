@@ -51,7 +51,7 @@
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
-      "path": "[[workspace]]/content/posts"
+      "path": "[[workspace]]/archetypes"
     }
   ],
   "frontMatter.git.enabled": true
